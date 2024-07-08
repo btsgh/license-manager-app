@@ -1,0 +1,23 @@
+{{
+	{
+  "metricQueries": [
+    {
+      "name": "REVENUE",
+      "aggregationPeriod": "MONTH",
+      "filters": [
+        {
+          "fieldValues": [
+						LicenseTable.triggeredRow.subscription?.customerId
+          ],
+          "fieldName": "CUSTOMER_ID"
+        }
+      ],
+      "id": "m1",
+      "groupBy": "ACCOUNT_ID"
+    }
+  ],
+  "startTime": Utils.getStartOfDate(new Date(LicenseTable.triggeredRow.subscription?.currentCycleStartDate * 1000)),
+  "endTime": new Date(LicenseTable.triggeredRow.subscription?.endDate*1000)
+}
+
+}}

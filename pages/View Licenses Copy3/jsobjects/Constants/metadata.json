@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "668baad67b0e48213cd7eeb6_6e389043-266f-4c09-bfcb-276b7cdaf16d",
+  "id": "View Licenses Copy3_Constants",
+  "unpublishedCollection": {
+    "name": "Constants",
+    "pageId": "View Licenses Copy3",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "LICENSE_PLAN",
+        "value": "{\n  business: \"BUSINESS\",\n  enterprise: \"ENTERPRISE\"\n}"
+      },
+      {
+        "name": "LICENSE_ORIGIN",
+        "value": "{\n  selfServe: \"SELF_SERVE\",\n  sales: \"SALES\",\n  partenership: \"PARTNERSHIP\"\n}"
+      }
+    ]
+  }
+}

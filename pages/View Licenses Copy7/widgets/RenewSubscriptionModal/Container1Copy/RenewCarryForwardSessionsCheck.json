@@ -1,0 +1,63 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 68,
+  "defaultCheckedState": false,
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9733ca0215cbd7985795d8264a3848cf.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{RenewalTypeSelection.selectedOptionValue != \"early_renewal\"}}",
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "dwttupr2x1",
+  "label": "",
+  "labelPosition": "Right",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "leftColumn": 37,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 74,
+  "mobileLeftColumn": 2,
+  "mobileRightColumn": 14,
+  "mobileTopRow": 70,
+  "originalBottomRow": 68,
+  "originalTopRow": 64,
+  "parentColumnSpace": 6.408203125,
+  "parentId": "rfna63rl44",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 45,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 64,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "hsr23rslgp",
+  "widgetName": "RenewCarryForwardSessionsCheck"
+}

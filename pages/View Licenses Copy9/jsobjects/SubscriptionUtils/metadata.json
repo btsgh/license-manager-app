@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "668baad67b0e48213cd7eeb6_10edcf8b-237b-49f9-b819-1e0ce7478038",
+  "id": "View Licenses Copy9_SubscriptionUtils",
+  "unpublishedCollection": {
+    "name": "SubscriptionUtils",
+    "pageId": "View Licenses Copy9",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "products",
+        "value": "[]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationVersion": 2,
+  "color": "#ECECEC",
+  "evaluationVersion": 2,
+  "icon": "earth",
+  "pages": [
+    {
+      "id": "Create License",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses",
+      "isDefault": true
+    },
+    {
+      "id": "View Licenses Copy",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy1",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy2",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy3",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy4",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy5",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy6",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy Copy",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy7",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy8",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy9",
+      "isDefault": false
+    },
+    {
+      "id": "View Licenses Copy10",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  }
+}

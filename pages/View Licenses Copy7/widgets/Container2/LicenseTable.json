@@ -1,0 +1,1126 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 86,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "customColumn9",
+    "customColumn12",
+    "customerEmail",
+    "customerName",
+    "customColumn7",
+    "customColumn6",
+    "startDate",
+    "licenseType",
+    "licenseStatus",
+    "expiry",
+    "subscription",
+    "customColumn5",
+    "licenseKey",
+    "licenseOrigin",
+    "licensePlan",
+    "customColumn10",
+    "customColumn11",
+    "productEdition",
+    "createdAt",
+    "licenseAccountStatus",
+    "licenseId",
+    "customColumn8"
+  ],
+  "columnUpdatedAt": 1710445185476,
+  "columnWidthMap": {
+    "companyName": 173,
+    "createdAt": 115,
+    "customColumn1": 128,
+    "customColumn2": 90,
+    "customColumn3": 112,
+    "customColumn5": 172,
+    "customColumn6": 153,
+    "customColumn7": 168,
+    "customColumn8": 119,
+    "customColumn9": 95,
+    "customerEmail": 212,
+    "deleted": 92,
+    "expiry": 119,
+    "lastValidated": 139,
+    "licenseId": 337,
+    "licenseKey": 356,
+    "licenseStatus": 136,
+    "licenseType": 126,
+    "notes": 249,
+    "primaryContactEmail": 183,
+    "startDate": 181,
+    "status": 94,
+    "step": 62,
+    "subscription": 335,
+    "task": 245
+  },
+  "defaultPageSize": 0,
+  "defaultSearchText": "{{appsmith.URL.queryParams?.searchValue || \"\"}}",
+  "defaultSelectedRowIndex": "-1",
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "displayName": "Table",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "defaultSearchText"
+    },
+    {
+      "key": "primaryColumns.licenseKey.computedValue"
+    },
+    {
+      "key": "primaryColumns.startDate.computedValue"
+    },
+    {
+      "key": "primaryColumns.customerEmail.computedValue"
+    },
+    {
+      "key": "primaryColumns.licenseType.computedValue"
+    },
+    {
+      "key": "primaryColumns.licenseStatus.computedValue"
+    },
+    {
+      "key": "primaryColumns.expiry.computedValue"
+    },
+    {
+      "key": "primaryColumns.licenseId.computedValue"
+    },
+    {
+      "key": "primaryColumns.licenseOrigin.computedValue"
+    },
+    {
+      "key": "primaryColumns.subscription.computedValue"
+    },
+    {
+      "key": "primaryColumns.expiry.textColor"
+    },
+    {
+      "key": "primaryColumns.licenseKey.borderRadius"
+    },
+    {
+      "key": "primaryColumns.licenseKey.buttonLabel"
+    },
+    {
+      "key": "primaryColumns.customColumn5.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn6.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn7.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuColor"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem8w4pa5qs95.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemlxdvnu4e0o.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemg54jsb5f99.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem41l4akc0v4.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemp82i3nzj7d.isDisabled"
+    },
+    {
+      "key": "primaryColumns.expiry.isCellEditable"
+    },
+    {
+      "key": "primaryColumns.customerName.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn10.computedValue"
+    },
+    {
+      "key": "totalRecordsCount"
+    },
+    {
+      "key": "primaryColumns.licensePlan.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn11.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemu7ayv5yy1y.isDisabled"
+    },
+    {
+      "key": "primaryColumns.productEdition.computedValue"
+    },
+    {
+      "key": "primaryColumns.createdAt.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn12.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn12.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn12.buttonLabel"
+    },
+    {
+      "key": "primaryColumns.customColumn12.buttonColor"
+    },
+    {
+      "key": "primaryColumns.licenseAccountStatus.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onPageChange"
+    },
+    {
+      "key": "primaryColumns.expiry.textColor"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem8w4pa5qs95.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemlxdvnu4e0o.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemg54jsb5f99.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemg54jsb5f99.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem41l4akc0v4.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem41l4akc0v4.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemp82i3nzj7d.isDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemp82i3nzj7d.onClick"
+    },
+    {
+      "key": "primaryColumns.expiry.isCellEditable"
+    },
+    {
+      "key": "primaryColumns.expiry.onDateSelected"
+    },
+    {
+      "key": "primaryColumns.customColumn9.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuIteme6srkl6wch.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemlxdvnu4e0o.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemu7ayv5yy1y.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemu7ayv5yy1y.isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    },
+    {
+      "key": "onSearchTextChanged"
+    },
+    {
+      "key": "onRowSelected"
+    },
+    {
+      "key": "primaryColumns.licenseKey.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem8w4pa5qs95.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemlxdvnu4e0o.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemg54jsb5f99.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItem41l4akc0v4.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemp82i3nzj7d.onClick"
+    },
+    {
+      "key": "primaryColumns.expiry.onDateSelected"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuIteme6srkl6wch.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn9.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn8.menuItems.menuItemu7ayv5yy1y.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn12.onClick"
+    }
+  ],
+  "enableClientSideSearch": false,
+  "enableServerSideFiltering": false,
+  "hideCard": false,
+  "horizontalAlignment": "LEFT",
+  "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": true,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": true,
+  "key": "mdijbezzmy",
+  "label": "Data",
+  "leftColumn": 1,
+  "onPageChange": "{{fetchLicenses.run()}}",
+  "onRowSelected": "",
+  "onSearchTextChanged": "{{fetchLicenses.run();\nfetchTotalLicensesCount.run()}}",
+  "originalBottomRow": 76,
+  "originalTopRow": 9,
+  "parentColumnSpace": 3.3046875,
+  "parentId": "izpirpfo9h",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "createdAt": {
+      "alias": "createdAt",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "number",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdAt\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "createdAt",
+      "index": 12,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "createdAt",
+      "originalId": "createdAt",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn10": {
+      "alias": "Payment Status",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow?.subscription?.payment?.status == null ? 'NA' : currentRow?.subscription?.payment?.status))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn10",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Payment Status",
+      "labelColor": "#FFFFFF",
+      "originalId": "customColumn10",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn11": {
+      "alias": "license",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow['licenseKey']))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn11",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": false,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "licenseKey",
+      "labelColor": "#FFFFFF",
+      "originalId": "customColumn11",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn12": {
+      "alias": "Customer Id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+      "buttonColor": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.backgroundColor)))}}",
+      "buttonLabel": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.subscription.customerId))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.subscription.customerId))}}",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn12",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Customer Id",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{copyToClipboard(currentRow.subscription.customerId);}}",
+      "originalId": "customColumn12",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn5": {
+      "alias": "Used Usage (Last Year)",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.subscription?.usedUsage))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn5",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": false,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "usedUsage",
+      "labelColor": "#FFFFFF",
+      "originalId": "customColumn5",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn6": {
+      "alias": "Purchased Users",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( Utils.getUsage(currentRow.subscription).purchasedSeats))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn6",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Purchased Users",
+      "labelColor": "#FFFFFF",
+      "originalId": "customColumn6",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn7": {
+      "alias": "Available Sessions",
+      "allowCellWrapping": true,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "transparent",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( Utils.getUsage(currentRow.subscription).purchasedSessions + Utils.getUsage(currentRow.subscription).freeSessions\n\t))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn7",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Available Sessions",
+      "labelColor": "#FFFFFF",
+      "originalId": "customColumn7",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn8": {
+      "alias": "Actions",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonLabel": "Fetch",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "buttonVariant": "PRIMARY",
+      "columnType": "menuButton",
+      "computedValue": "",
+      "configureMenuItems": {
+        "config": {
+          "id": "config",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Menu Item"
+        },
+        "id": "config",
+        "label": "Configure menu items"
+      },
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconAlign": "left",
+      "id": "customColumn8",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isCompact": false,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Actions",
+      "labelColor": "#FFFFFF",
+      "menuButtonLabel": "Action",
+      "menuColor": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "menuItems": {
+        "menuItem41l4akc0v4": {
+          "iconName": "edit",
+          "id": "menuItem41l4akc0v4",
+          "index": 1,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == \"EXPIRED\" || currentRow.licenseOrigin == \"AIR_GAP\" || SubscriptionUtils.getSubscriptionOption(currentRow) != \"Update\"))}}",
+          "isVisible": true,
+          "label": "Update Subscription",
+          "onClick": "{{Actions.openModalFromLicenseStatus(LicenseTable.triggeredRow)}}",
+          "widgetId": "z5dcc5sdqr"
+        },
+        "menuItem8w4pa5qs95": {
+          "iconColor": "#e15615",
+          "iconName": "delete",
+          "id": "menuItem8w4pa5qs95",
+          "index": 5,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == \"EXPIRED\" || currentRow.licenseOrigin == \"AIR_GAP\"))}}",
+          "isVisible": true,
+          "label": "Revoke License",
+          "onClick": "{{showModal('RevokeAccessModal');}}",
+          "textColor": "#cf4d10",
+          "widgetId": "gmrdy72uxj"
+        },
+        "menuIteme6srkl6wch": {
+          "iconName": "edit",
+          "id": "menuIteme6srkl6wch",
+          "index": 4,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Update License",
+          "onClick": "{{(() => {\n\tshowModal(\"Loader\");\n\tgetLicenseById.run()\n\t\t.then(() => {\n\t\t\tshowModal('UpdateLicenseModal');\n\t\t});\n})()}}",
+          "widgetId": "b00a1acr5p"
+        },
+        "menuItemg54jsb5f99": {
+          "iconName": "add",
+          "id": "menuItemg54jsb5f99",
+          "index": 0,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == \"EXPIRED\" || SubscriptionUtils.getSubscriptionOption(currentRow) != \"Create\"))}}",
+          "isVisible": true,
+          "label": "Create Subscription",
+          "onClick": "{{Actions.openModalFromLicenseStatus(LicenseTable.triggeredRow)}}",
+          "widgetId": "y11wltstcz"
+        },
+        "menuItemlxdvnu4e0o": {
+          "iconName": "updated",
+          "id": "menuItemlxdvnu4e0o",
+          "index": 3,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == \"EXPIRED\" || currentRow.licenseType == \"TRIAL\" || currentRow.licenseOrigin == \"SELF_SERVE\"))}}",
+          "isVisible": true,
+          "label": "Renew Subscription",
+          "onClick": "{{Actions.openRenewSubscriptionModal();}}",
+          "widgetId": "5ulpxbk7h0"
+        },
+        "menuItemp82i3nzj7d": {
+          "iconName": "exchange",
+          "id": "menuItemp82i3nzj7d",
+          "index": 2,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == \"EXPIRED\" || currentRow.licenseOrigin == \"AIR_GAP\" || SubscriptionUtils.getSubscriptionOption(currentRow) != \"Migrate\"))}}",
+          "isVisible": true,
+          "label": "Migrate Subscription",
+          "onClick": "{{Actions.openModalFromLicenseStatus(LicenseTable.triggeredRow)}}",
+          "widgetId": "bdd6he48jw"
+        },
+        "menuItemu7ayv5yy1y": {
+          "iconName": "application",
+          "id": "menuItemu7ayv5yy1y",
+          "index": 6,
+          "isDisabled": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseStatus == 'EXPIRED' || currentRow.licenseOrigin == 'SELF_SERVE'))}}",
+          "isVisible": true,
+          "label": "Send Invite Email",
+          "onClick": "{{sendLicenseKeyInEmail.run().then(() => showAlert('Sent invite email successfully', 'success'))\n.catch(() => showAlert('Unable to send invite email'))}}",
+          "widgetId": "9ci5vkxxay"
+        }
+      },
+      "menuItemsSource": "STATIC",
+      "menuVariant": "PRIMARY",
+      "originalId": "customColumn8",
+      "sourceData": [],
+      "sticky": "right",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn9": {
+      "alias": "Details",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonLabel": "Details",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "",
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn9",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Details",
+      "labelColor": "#FFFFFF",
+      "onClick": "{{Actions.getCustomerDetails()}}",
+      "originalId": "customColumn9",
+      "sticky": "left",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customerEmail": {
+      "alias": "customerEmail",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"customerEmail\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "customerEmail",
+      "index": 11,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Customer Email",
+      "originalId": "customerEmail",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customerName": {
+      "alias": "customerName",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"customerName\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "customerName",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Customer Name",
+      "originalId": "customerName",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "expiry": {
+      "alias": "expiry",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "date",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"expiry\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "expiry",
+      "index": 3,
+      "inputFormat": "Epoch",
+      "isCellEditable": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseType == \"TRIAL\"))}}",
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Expiry",
+      "onDateSelected": "{{\n(() => {\n\tlet expiry = Date.parse(LicenseTable.tableData[LicenseTable.triggeredRowIndex]?.expiry);\n\tLicenseTable.tableData[LicenseTable.triggeredRowIndex].expiry = expiry;\n})()\n}}",
+      "originalId": "expiry",
+      "outputFormat": "YYYY-MM-DD",
+      "shortcuts": false,
+      "sticky": "",
+      "textColor": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( Utils.getExpiryTextColour(currentRow.expiry)))}}",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseAccountStatus": {
+      "alias": "licenseAccountStatus",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseAccountStatus\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licenseAccountStatus",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "licenseAccountStatus",
+      "notation": "standard",
+      "originalId": "licenseAccountStatus",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseId": {
+      "alias": "licenseId",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseId\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licenseId",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "licenseId",
+      "originalId": "licenseId",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseKey": {
+      "alias": "licenseKey",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+      "buttonColor": "#231f20",
+      "buttonLabel": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow.licenseKey))}}",
+      "buttonVariant": "TERTIARY",
+      "columnType": "button",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseKey\"]))}}",
+      "customAlias": "",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "licenseKey",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "License Key",
+      "onClick": "{{copyToClipboard(currentRow.licenseKey);\nshowAlert('Key Copied!', 'success');}}",
+      "originalId": "licenseKey",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseOrigin": {
+      "alias": "licenseOrigin",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseOrigin\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licenseOrigin",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "License Origin",
+      "originalId": "licenseOrigin",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licensePlan": {
+      "alias": "licensePlan",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licensePlan\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licensePlan",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "licensePlan",
+      "originalId": "licensePlan",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseStatus": {
+      "alias": "licenseStatus",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseStatus\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licenseStatus",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "License Status",
+      "originalId": "licenseStatus",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "licenseType": {
+      "alias": "licenseType",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"licenseType\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "licenseType",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "License Type",
+      "originalId": "licenseType",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "productEdition": {
+      "alias": "productEdition",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"productEdition\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "productEdition",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "productEdition",
+      "originalId": "productEdition",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "startDate": {
+      "alias": "startDate",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"startDate\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "startDate",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "startDate",
+      "originalId": "startDate",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "subscription": {
+      "alias": "subscription",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{LicenseTable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"subscription\"]))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "subscription",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "subscription",
+      "originalId": "subscription",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchKey": "",
+  "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{fetchLicenses.data?.data?.data}}",
+  "textSize": "0.875rem",
+  "topRow": 8,
+  "totalRecordsCount": "{{fetchTotalLicensesCount.data?.data}}",
+  "type": "TABLE_WIDGET_V2",
+  "version": 1,
+  "verticalAlignment": "CENTER",
+  "widgetId": "dttvhpwsvp",
+  "widgetName": "LicenseTable"
+}

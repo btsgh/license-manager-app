@@ -1,0 +1,84 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( getLicenseById.data?.data?.licenseOrigin))(UpdateLicenseOriginSelect.options, UpdateLicenseOriginSelect.serverSideFiltering) }}",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a7b19dc8b31d68fcff57f1d2c0084a18.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{getLicenseById.data?.data?.licenseType != \"TRIAL\" || getLicenseById.data?.data?.licenseOrigin == \"AIR_GAP\"}}",
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "7trz84vht3",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "License Origin:",
+  "labelTextColor": "#231f20",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "28",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 30,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentColumnSpace": 6.9375,
+  "parentId": "g1mp2jf7j2",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "dropdown"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "{{Object.values(Constants.LICENSE_ORIGIN).map(item => {\n\treturn {\n\t\tcode: item,\n\t\tname: item\n\t}\n})}}",
+  "tags": [
+    "Suggested",
+    "Select"
+  ],
+  "topRow": 16,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "zjugt3bxsn",
+  "widgetName": "UpdateLicenseOriginSelect"
+}

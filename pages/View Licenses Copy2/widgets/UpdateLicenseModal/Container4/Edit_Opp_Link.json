@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultSwitchState": false,
+  "displayName": "Switch",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!!getLicenseById.data?.data?.metadata?.salesforceOpportunityLink}}",
+  "key": "w76dx8hazn",
+  "label": "Edit",
+  "labelPosition": "Left",
+  "leftColumn": 52.459016393442624,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 40,
+  "mobileLeftColumn": 51,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 36,
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
+  "parentColumnSpace": 4.169921875,
+  "parentId": "vllo5tw6c2",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 3,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "okyig8h99v",
+  "widgetName": "Edit_Opp_Link"
+}

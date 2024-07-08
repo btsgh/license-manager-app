@@ -1,0 +1,28 @@
+{
+  "gitSyncId": "6448d2a5fd732063eb3c4bf7_6453724ffd732063eb3c69d0",
+  "id": "Create License_Utils",
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Create License",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "licenseOrigin",
+        "value": "[\"AIR_GAP\", \"ENTERPRISE\"]"
+      },
+      {
+        "name": "licensePlans",
+        "value": "['BUSINESS', 'ENTERPRISE']"
+      },
+      {
+        "name": "allowedLicenseOrigins",
+        "value": "['SALES', 'PARTNERSHIP']"
+      },
+      {
+        "name": "productEditions",
+        "value": "['COMMERCIAL', 'AIR_GAP']"
+      }
+    ]
+  }
+}

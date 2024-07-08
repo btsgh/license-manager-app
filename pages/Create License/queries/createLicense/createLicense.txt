@@ -1,0 +1,14 @@
+{
+	"licenseOrigin": {{licenseOriginSelect.selectedOptionValue}},
+	"licensePlan": {{licensePlanSelect.selectedOptionValue}},
+	"productEdition": {{productEditionSelect.selectedOptionValue}},
+	"companyName": {{companyInput.inputText}},
+	"expiry": {{expiryDate.selectedDate}},
+	"userDTO": {
+		"name": {{nameInput.inputText}}, 
+		"email": {{emailInput.inputText.toLowerCase()}} 
+	},
+	"metadata":{
+		"notes": {{notesInput.inputText}}
+	}
+}
